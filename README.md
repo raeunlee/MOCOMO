@@ -67,7 +67,7 @@
   </details>
 
 <details>
-  <summary> Week2 - 탐색 </summary>
+  <summary> Week2 - 그리디, 탐색 </summary>
 
 | 날짜 | 문제 유형 | 문제 | 난이도 |
 |:---:|:---:|:---:|:---:|
@@ -84,7 +84,7 @@
 </details>
 
 <details>
-  <summary> Week3 - 탐색 </summary>
+  <summary> Week3 - 해시, 탐색 </summary>
 
 | 날짜 | 문제 유형 | 문제 | 난이도 |
 |:---:|:---:|:---:|:---:|

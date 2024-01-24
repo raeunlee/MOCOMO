@@ -97,7 +97,6 @@
 | 01.19| DFS/BFS | 백준 - 영역 구하기 (2583) | 실1 |
 | 01.19| DFS/BFS | 백준 - 퍼즐 (1525) | 골2 |
   </details>
-<br/>
 
 <details>
   <summary> Week4 - 구현 </summary>

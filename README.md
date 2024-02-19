@@ -4,7 +4,7 @@
 
 ### Language
 <img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> <img src="https://img.shields.io/badge/python-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> 
-### 스터디 멤버
+### 1기 스터디 멤버
 <table>
   <tr>
     <td align="center"><a href="https://github.com/raeunlee"><b>이라은</b></a></td>
@@ -12,15 +12,22 @@
     <td align="center"><a href="https://github.com/syc98syc"><b>신윤철</b></a></td>
   </tr>
 </table>
-<br/>
 
-## Week4 테마 - 
+### 2기 스터디 멤버
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/raeunlee"><b>이라은</b></a></td>
+    <td align="center"><a href="https://github.com/syc98syc"><b>신윤철</b></a></td>
+  </tr>
+</table>
+
+## Week4 테마 - 구현, 시뮬레이션
 ## Daily 문제
 
 | 날짜 | 문제 유형 | 문제 | 난이도 |
 |:---:|:---:|:---:|:---:|
-| 01.24| 완전탐색 | 프로그래머스 - 모의고사 | Lv1 |
-| 01.24| 구현 | 백준 - 사탕게임 | 실2 |
+| 02.19| 그래프, 탐색 | 백준 - 음식물 피하기 | 실1 |
+| 02.19| 구현, 시뮬레이션 | 백준 - 로봇 청소기 | 골5 |
 
 <br/>
 
@@ -107,5 +114,15 @@
 | 01.22| 그래프 | 프로그래머스 - 순위 | Lv3 |
 | 01.24| 완전탐색 | 프로그래머스 - 모의고사 | Lv1 |
 | 01.24| 구현 | 백준 - 사탕게임 | 실2 |
+  </details>
+
+<details>
+  <summary> Week5 - 그래프, 구현 </summary>
+  
+| 날짜 | 문제 유형 | 문제 | 난이도 |
+|:---:|:---:|:---:|:---:|
+| 02.19| 그래프, 탐색 | 백준 - 음식물 피하기 | 실1 |
+| 02.19| 구현, 시뮬레이션 | 백준 - 로봇 청소기 | 골5 |
+
   </details>
 <br/>

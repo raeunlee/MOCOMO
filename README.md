@@ -18,6 +18,7 @@
   <tr>
     <td align="center"><a href="https://github.com/raeunlee"><b>이라은</b></a></td>
     <td align="center"><a href="https://github.com/syc98syc"><b>신윤철</b></a></td>
+    <td align="center"><a href="https://github.com/dolssun"><b>김은진</b></a></td>
   </tr>
 </table>
 
@@ -26,8 +27,8 @@
 
 | 날짜 | 문제 유형 | 문제 | 난이도 |
 |:---:|:---:|:---:|:---:|
-| 02.19| 그래프, 탐색 | 백준 - 음식물 피하기 | 실1 |
-| 02.19| 구현, 시뮬레이션 | 백준 - 로봇 청소기 | 골5 |
+| 03.04| 구현, 배열 | 프로그래머스 - 교점에 별 만들기 | Lv2 |
+| 03.04| 구현, 배열 | 프로그래머스 - 행렬 테두리 회전하기  | Lv2 |
 
 <br/>
 
@@ -123,6 +124,12 @@
 |:---:|:---:|:---:|:---:|
 | 02.19| 그래프, 탐색 | 백준 - 음식물 피하기 | 실1 |
 | 02.19| 구현, 시뮬레이션 | 백준 - 로봇 청소기 | 골5 |
+
+  </details>
+
+<details>
+  <summary> 2기 시작! Week6 - 배열, 구현 </summary>
+  
 
   </details>
 <br/>

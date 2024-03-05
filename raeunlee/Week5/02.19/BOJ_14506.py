@@ -6,3 +6,4 @@ room = []
 
 for i in range(n):
     room.append(list(map(int, input().split())))
+

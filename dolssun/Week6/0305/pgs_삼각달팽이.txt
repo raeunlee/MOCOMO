@@ -1,0 +1,33 @@
+# 삼각 달팽이
+
+def solution(n):
+    arr = [[0*n for j in range(n)] for i in range(n)]
+    
+    end = n*(n+1)/2
+    N = n
+    
+    i=j=0
+    v=1
+    for k in range(n,0,-1): # 한번에 적는 값 개수
+        if n%==0:
+            arr[i][j] = v
+            i+=1
+            
+        elif i%3==2:
+            
+        elif i%3==1:
+        
+        
+#     for i in range(1,end+1):  
+#         if i%3==1:
+            
+#         elif i%3==2:
+            
+#         elif i%3==0:
+        
+#         N -= 1
+#         if N == 0:
+#             break
+
+   
+    return answer

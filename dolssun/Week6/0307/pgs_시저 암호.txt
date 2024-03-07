@@ -1,0 +1,14 @@
+# 시저 암호
+
+def solution(s, n):
+    alpha = list(s)
+    
+    for i in range(len(s)):
+        if s[i] == ' ' : continue
+        corr = ord('A') if s[i].isupper() else ord('a')
+        alpha[i] = chr((ord(s[i])-corr+n)%26+corr)
+    
+    # al = []
+    # for i in alpha:
+    #     al.append(i+1)
+    return ''.join(alpha)

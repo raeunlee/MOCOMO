@@ -1,0 +1,41 @@
+# 프로그래머스 lv.2 : 교점에 별 만들기
+
+def solution(line):
+    answer, xy = [], []
+    n = len(line)
+    w_min = h_min = int(1e15)
+    w_max = h_max = -int(1e15)
+    
+    for i in range(n):
+        a,b,e = line[i]
+        for j in range(i+1,n):
+            c,d,f = line[j]
+            
+            if a*d-b*c == 0:
+                continue
+            
+            x = (b*f-e*d)/(a*d-b*c)
+            y = (e*c-a*f)/(a*d-b*c)
+            
+            if x==int(x) and y==int(y):
+                x = int(x)
+                y = int(y)
+                xy.append([x,y])      # 정수로 추가
+                
+                if x < w_min : w_min = x
+                if y < h_min : h_min = y
+                if x > w_max : w_max = x
+                if y > h_max : h_max = y
+    
+    w = w_max-w_min+1
+    h = h_max-h_min+1
+
+    result = [['.']*w for _ in range(h)]
+
+    for x,y in xy:
+        result[y-h_min][x-w_min] = '*'
+    
+    for i in result:
+        answer.append(''.join(i))
+        
+    return answer[::-1]

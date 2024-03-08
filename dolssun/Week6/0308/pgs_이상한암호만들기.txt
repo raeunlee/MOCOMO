@@ -1,0 +1,18 @@
+# 이상한 문자 만들기
+
+def solution(s):
+    answer = ''
+    cnt = 0
+    
+    s = list(s)
+    for i in range(len(s)):
+        if s[i]==" " : 
+            cnt = 0
+            continue
+        if cnt%2==0:
+            s[i] = s[i].upper()
+        elif cnt%2==1:
+            s[i] = s[i].lower()
+        cnt += 1
+    
+    return "".join(s)

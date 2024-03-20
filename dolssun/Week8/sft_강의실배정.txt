@@ -1,0 +1,21 @@
+# 소프티어 : 강의실 배정
+
+import sys 
+
+input = sys.stdin.readline
+
+lecture = []
+n = int(input())
+for i in range(n):
+    lecture.append(list(map(int, input().split())))
+
+lecture.sort(key = lambda x : x[1])
+
+now_end = 0
+cnt = 0
+for start, end in lecture:
+    if start>=now_end:
+        now_end = end
+        cnt += 1
+
+print(cnt)
